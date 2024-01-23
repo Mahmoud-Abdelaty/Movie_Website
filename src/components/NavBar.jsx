@@ -1,9 +1,6 @@
 import React from "react";
 import "../styles/NavBar.css";
-import { Routes, Route, NavLink } from "react-router-dom";
-import Movies from "./Movies";
-import TvShows from "./TvShows";
-import Trending from "./Trending";
+import { NavLink } from "react-router-dom";
 
 export default function NavBar() {
   return (
