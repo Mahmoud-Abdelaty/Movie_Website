@@ -1,0 +1,50 @@
+.blurred {
+  position: relative;
+  height: 500px;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  filter: blur(1.6px);
+  opacity: 0.5;
+}
+
+.movies-container-details {
+  position: absolute;
+  top: 20%;
+  left: 10%;
+}
+.movies-container-details:hover {
+  filter: blur(2px);
+  cursor: pointer;
+}
+
+.movies-container-details img {
+  width: 205px;
+  display: inline-block;
+  height: 300px;
+  display: inline-block;
+  margin: 30px 10px;
+  border-radius: 18px;
+}
+
+.single {
+  display: flex;
+  align-items: center;
+}
+
+.movies-container-details img {
+  display: inline-block;
+}
+
+p {
+  display: block;
+  margin: 10px;
+  color: white;
+}
+
+.text-d {
+  position: absolute;
+  top: 30%;
+  left: 30%;
+  font-size: 25px;
+}

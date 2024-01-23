@@ -1,0 +1,42 @@
+body {
+  background-color: #000000;
+}
+
+nav {
+  width: 100vw;
+  display: flex;
+  justify-content: space-between;
+  height: 50px;
+  background-color: yellow;
+  align-items: center;
+}
+nav h1 {
+  color: black;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+nav a {
+  text-decoration: none;
+}
+nav span {
+  cursor: pointer;
+  margin-left: 40px;
+  font-size: 12px;
+
+  text-transform: uppercase;
+}
+nav span:hover {
+  color: grey;
+  border-bottom: 2px solid black;
+  padding-bottom: 5px;
+}
+
+.nav-options {
+  display: flex;
+  align-items: center;
+}
+
+.nav-link {
+  padding: 10px;
+  color: black;
+}
